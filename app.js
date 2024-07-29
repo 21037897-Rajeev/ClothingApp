@@ -17,10 +17,10 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage});
 
 const connection = mysql.createConnection({
-    host: 'sql.freedb.tech',
-    user: 'freedb_rajeev3',
-    password: 'h!JNW4sGqE8hUhN',
-    database: 'freedb_Clothingapp'
+    host: 'db4free.net',
+    user: 'rajeev1',
+    password: 'Greenhalo273',
+    database: 'clothingapp999'
 });
 
 connection.connect((err) => {
